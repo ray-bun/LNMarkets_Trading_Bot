@@ -28,15 +28,16 @@ npm install
 # Running the bot
 
 ```
-node startBot.js
+node dist/startBot.js
 ```
 
-I recommend using CRON or scheduler to run your bot every 5 mins etc..
+I recommend using CRON or scheduler to run your bot every 5 mins - hourly etc..
 
 #Future improvements
 
 - Web interface
 - Auto create database
 
-#Warning
+# Warning
+
 Educational only. Use it at your own risk. I am not responsible for any financial loss.
