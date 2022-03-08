@@ -1,0 +1,27 @@
+{
+  "name": "lnmarkets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn src/startBot.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ln-markets/api": "^1.5.3",
+    "@supabase/supabase-js": "^1.25.1",
+    "axios": "^0.23.0",
+    "dotenv": "^10.0.0",
+    "node-telegram-bot-api": "^0.54.0",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.4",
+    "@types/ws": "^8.2.0",
+    "typescript": "^4.4.4"
+  }
+}
